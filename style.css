@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("/img/bg2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 46%;
+  left: 61%;
+}
+
+.container h1 {
+  font-family: "Tinos", serif;
+  display: inline-block;
+  padding: 13px 0px;
+  width: 47%;
+  font-size: 37px;
+  text-shadow: -3px 2px 19px white;
+  border-bottom: 4px solid rgb(211, 7, 75);
+  margin-bottom: 15px;
+}
+
+.box {
+  width: 100%;
+  border-bottom: 2px solid rgb(211, 7, 75);
+  margin: 25px 0px;
+}
+
+.box i {
+  width: 30px;
+  text-align: center;
+}
+
+.box input {
+  font-family: "Tinos", serif;
+  background: none;
+  color: white;
+  border-radius: 10px;
+  padding: 7px 19px;
+  font-size: 1.3rem;
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  font-family: "Tinos", serif;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 12px;
+  padding: 10px 15px;
+  border: 2px solid rgb(211, 7, 75);
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 1.5;
+  color: rgb(211, 7, 75);
+  background: white;
+  border: 2px solid white;
+}
